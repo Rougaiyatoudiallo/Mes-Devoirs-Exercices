@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE DE MULTIPLICATION</title>
+    <link rel="stylesheet" href="dev.css">
+</head>
+<body>
+  <div>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+         <fieldset><br>
+              <legend>CALCULATRICE</legend>
+              
+               <script>
+                  function CALCULATRICE(){
+                    
+              var Nombre1 , Nombre2 , somme , multiplication , modulo , division ;
+              num1=Number(document.getElementById("num1").value);
+              num2=Number(document.getElementById("num2").value);
+              somme = num1 + num2 ;
+              multiplication = num1 * num2;
+              modulo = num1 %  num2;
+              division = num1 / num2;
+              document.getElementById("somme").value = somme;
+              document.getElementById("multiplication").value = multiplication;
+              document.getElementById("modulo").value = modulo;
+              document.getElementById("division").value = division;
+                }
+
+             </script>
+                <label for="name">NOMBRE 1 : </label>
+                 <input type="num" id="num1" name="data1" required><br><br>
+               <label for="name">NOMBRE 2 : </label>
+                <input id="num2">
+                    <div class="button"><br>
+                      <button onclick="CALCULATRICE()">CALCULE</button></div><br>
+                        POUR LA SOMME : <input id="somme"><br><br>
+                        POUR LA MULTIPLICATION : <input id="multiplication"><br><br>
+                        POUR LA  DIVISION : <input id="division"><br><br>
+                        POUR LE MODULO : <input id="modulo"><br><br>
+
+
+           </fieldset>
+      
+  </div> 
+
+</body>
+
+</html>

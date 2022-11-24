@@ -1,0 +1,27 @@
+fieldset {
+    background-color: aqua;
+    height: 350px;
+    width: 700000;
+    border: 100px solid rgb(red, green, blue);
+    padding: 10px 550px;
+    float: right ;
+    float: unset;
+    
+}
+body{
+    background-color: rgb(229, 255, 0);
+    height: 350px;
+    width: 100000;
+}
+div{
+   
+    height: 50px;
+    width: 80;
+    border: 8px solid rgb(red, green, blue);
+    padding: 10px 13px;
+    
+}
+
+
+
+
